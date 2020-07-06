@@ -214,6 +214,8 @@ searchBtn.addEventListener("click", () => {
   if (userInput.value.trim() === "") {
     alert("Enter a valid input.");
   } else {
+    information.style.display = "none";
+    itemInfo.textContent = "";
     nextPage.style.display = "inline-block";
     pageNumber.style.display = "inline-block";
     previousPage.style.display = "none";
